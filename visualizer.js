@@ -19,7 +19,6 @@ function Bar(p, w)
 }
 
 //--------------------- main ---------------------
-var player = new MediaElementPlayer('#player1');
 var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 var analyser = audioCtx.createAnalyser();
 var myAudio = document.getElementById('player1');
